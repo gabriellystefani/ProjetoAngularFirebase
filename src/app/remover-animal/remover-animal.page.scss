@@ -1,0 +1,18 @@
+.full-height{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .plano-de-fundo{
+    --background: url("https://s2.glbimg.com/IqtSIQCLmeaOOmJyqj4u_kN-n0A=/e.glbimg.com/og/ed/f/original/2020/09/17/manuel-meza-kvkop_a_exw-unsplash.jpg") no-repeat center center / cover;
+  }
+  
+  .titulo{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+  }
