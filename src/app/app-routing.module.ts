@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'visualizar-animal',
     loadChildren: () => import('./visualizar-animal/visualizar-animal.module').then( m => m.VisualizarAnimalPageModule)
   },
+  {
+    path: 'gerenciar-animal',
+    loadChildren: () => import('./gerenciar-animal/gerenciar-animal.module').then( m => m.GerenciarAnimalPageModule)
+  },
 ];
 
 @NgModule({
